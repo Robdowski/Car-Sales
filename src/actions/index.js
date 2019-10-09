@@ -5,8 +5,8 @@ export const addFeature = itemToAdd => {
 }
 
 export const REMOVE_FEATURE = 'REMOVE_FEATURE'
-export const removeFeature = (item) => {
-    return ({type: REMOVE_FEATURE, payload: item})
+export const removeFeature = itemToRemove => {
+    return ({type: REMOVE_FEATURE, payload: itemToRemove})
 };
 
 
